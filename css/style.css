@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;700&display=swap');
+body{
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    overflow-x: hidden !important;
+    color: #353945;
+    font-family: 'Nunito', sans-serif;
+
+}
+/* navbar styling */
+.navbar-light .navbar-brand img {
+   width: 10rem;
+}
+.has-search .form-control {
+    padding-left: 2.375rem;
+}
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+}
+.has-search .form-control{
+    width: 100%;
+    border-radius: 5rem;
+    border: 1px solid #DADADA;
+    color: #DADADA;
+}
+.navbar-light .navbar-nav .nav-link {
+    font-weight: bold;
+    color: #000000;
+}
+.navbar-light .navbar-toggler {
+    color: transparent !important; 
+    border-color: transparent !important;
+}
+.btn-tuanekaColor{
+    background-color: #D62E6A;
+    color: #ffffff;
+    border-radius: 5rem;
+    width: 6rem; 
+    border-color: #D62E6A ;
+}
+.btn-tuanekaColor:hover{
+    background-color: #D62E6A;
+    border-color: #D62E6A;
+}
+.btn-tuanekaColor:focus{
+    color: #fff;
+    background-color: #D62E6A;
+    border-color: #D62E6A;
+    box-shadow: 0 0 0 0.25rem #D62E6A;
+}
+.btn-tuanekaColor:active:focus{
+    box-shadow:0 0 0 0.25rem #D62E6A ;
+}
+
+
+
+/* hero section styling */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+     
+}
+
+/*  Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    /* navbar styling */
+    .has-search .form-control {
+        width: 15rem;
+    }  
+  
+}
+
+/*  Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    /* navbar styling */
+    .has-search .form-control {
+        width: 20rem;
+    }  
+    .btn-tuanekaColor {
+        width: 10rem;
+    }
+
+
+}
+
+/*  X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+    /* navbar styling */
+    .has-search .form-control {
+        width: 25rem;
+    } 
+    .navbar-expand-md .navbar-nav .login {
+        padding-right: 2.5rem !important;
+    }
+}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) { 
+     
+  
+
+}
+
