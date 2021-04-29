@@ -103,12 +103,6 @@ nav{
     --main-black-color: black;
   }
   
-  * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-  }
-  
   .static {
     position: static;
   }
@@ -164,13 +158,13 @@ nav{
   
   .owl-carousel .owl-dots .owl-dot span {
     background: transparent;
-    border: 1px solid var(--main-black-color);
+    border: 1px solid #D62E6A;
     transition: all 0.2s ease;
   }
   
   .owl-carousel .owl-dots .owl-dot:hover span,
   .owl-carousel .owl-dots .owl-dot.active span {
-    background: var(--main-black-color);
+    background: #D62E6A;
   }
   
   .owl-carousel .owl-nav {
@@ -272,7 +266,7 @@ nav{
     }
     .owl-carousel .owl-dots,
     .owl-carousel .owl-nav {
-        top: 17rem;
+        top:21rem;
         left: 5rem;
     }
     .hero h1 {
