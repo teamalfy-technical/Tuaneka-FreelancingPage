@@ -47,7 +47,7 @@ nav{
     background-color: #D62E6A;
     color: #ffffff;
     border-radius: 5rem;
-    width: 7rem; 
+    width: 10rem; 
     border-color: #D62E6A ;
 }
 .btn-skill{
@@ -134,7 +134,13 @@ nav{
     /* height: 100%; */
 }
 
+.fa{
+    color: #D62E6A;
+}
 
+.fw-600{
+    font-weight: 600;
+}
 
 
   
