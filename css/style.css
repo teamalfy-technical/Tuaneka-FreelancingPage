@@ -157,7 +157,30 @@ nav{
     color: #ffffff;
     text-decoration: none;
 }
+.btn-skill-badge{
+    height: 30px;
+    border-radius: 16px;
+    padding: 2px 6px 0;
+    color: #2B313D;
+    border: 1px solid #D62E6A;
+    background: none;
+    font-weight: 500;
+}
 
+.skill-shaded{
+    height: 30px;
+    border-radius: 16px;
+    padding: 2px 15px 0;
+    color: #ffffff;
+    border: 1px solid #D62E6A;
+    background: #D62E6A;
+    font-weight: 500;
+}
+
+.skills-badge a{
+    color: #2B313D;
+    text-decoration: none;
+}
   
 .static {
     position: static;
@@ -295,6 +318,10 @@ section {
     }
     .freelance-section img{
         border-radius: 0px 10px 10px 0px;
+    }
+    .btn-skill-badge{
+        padding: 2px 15px 0;
+
     }
 
 }
