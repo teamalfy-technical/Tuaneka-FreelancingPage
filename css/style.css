@@ -142,6 +142,21 @@ nav{
     font-weight: 600;
 }
 
+.invoicing-platform{
+    background-color: #2B313D;
+    color: #ffffff;
+}
+.card{
+    height: 15rem;
+}
+.card img{
+    width: 10rem;
+    margin: auto;
+}
+.invoicing-platform a{
+    color: #ffffff;
+    text-decoration: none;
+}
 
   
 .static {
