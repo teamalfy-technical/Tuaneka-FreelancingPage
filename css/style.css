@@ -134,7 +134,7 @@ nav{
     /* height: 100%; */
 }
 
-.fa{
+.hero-text .fa{
     color: #D62E6A;
 }
 
@@ -146,10 +146,10 @@ nav{
     background-color: #2B313D;
     color: #ffffff;
 }
-.card{
+.invoicing-platform .card{
     height: 15rem;
 }
-.card img{
+.invoicing-platform .card img{
     width: 10rem;
     margin: auto;
 }
@@ -181,6 +181,72 @@ nav{
     color: #2B313D;
     text-decoration: none;
 }
+
+
+.payment-integration{
+    background-color: #2B313D;
+    color: #ffffff;
+}
+
+.payment-integration img{
+    width: 10rem;
+}
+
+.flexible-payment p{
+    color: #D62E6A;
+}
+
+.pricing-section{
+    background-color: #2B313D;
+    color: #ffffff;
+}
+
+.pricing-section .card-header{
+    border: 5px solid #ffffff;
+    background-color: transparent;
+    width: 15rem;
+    margin: 0 auto;
+    padding:2rem 2rem;
+    border-radius: 20px;
+}
+.pricing-section .card{
+    background-color: transparent;
+    width: 15rem;
+    border: none;
+    align-items: center;
+    margin: 0 auto;
+}
+.pricing-section .card-header h1{
+    font-size: 3rem;
+}
+.pricing-section .card .list-item{
+    list-style: none;
+    line-height: 2;
+    font-weight: 500;
+}
+.fs-1rem{
+    font-size: 1rem;
+}
+.border-x{
+    border-left: 0.5px solid #FFFFFF;
+    border-right: 0.5px solid #FFFFFF;
+}
+.limitted-access{
+    color: rgba(206, 150, 150, 0.46);
+}
+.btn-buynow{
+    border: 2px solid #ffffff;
+    border-radius: 5rem;
+    color: #ffffff;
+    width: 100%;
+}
+
+.tuaneka-logo img{
+    width: 7rem
+}
+
+
+
   
 .static {
     position: static;
@@ -280,6 +346,27 @@ section {
     margin-top: 80px !important;
 }
 
+/* footer */
+footer{
+    background-color:#2B313D ;
+    color: #ffffff;
+}
+
+footer a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+footer ul{
+    padding-left: 0 !important;
+}
+footer ul li{
+    list-style: none;
+}
+
+.footer-items{
+    padding-top: 3rem;
+}
 
 
 
@@ -322,6 +409,9 @@ section {
     .btn-skill-badge{
         padding: 2px 15px 0;
 
+    }
+    .tuaneka-logo img{
+        width: 459.67px
     }
 
 }
