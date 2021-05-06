@@ -65,14 +65,27 @@ nav{
     background-color: #D62E6A;
     border-color: #D62E6A;
 }
+.btn-tuanekaColorJob{
+    border-radius: 5rem;
+    padding: 0 2rem;
+}
 .btn-tuanekaColor:focus{
     color: #fff;
     background-color: #D62E6A;
-    border-color: #D62E6A;
     box-shadow: 0 0 0 0.25rem #D62E6A;
 }
 .btn-tuanekaColor:active:focus{
     box-shadow:0 0 0 0.25rem #D62E6A ;
+}
+.btn-tuanekaColorJob:hover{
+    color: #D62E6A;
+    border: 1px solid #D62E6A;
+}
+
+.btn-tuanekaColorJob:focus{
+    color: #fff !important;
+    background-color: #D62E6A;
+    border-color: #D62E6A;
 }
 
 .btn-tuanekaColor-white{
@@ -90,6 +103,9 @@ nav{
     height: 2rem;
 }
 
+.find-out:hover{
+    color: #D62E6A;
+}
 
 /* main section styling */
 .main{
@@ -167,7 +183,7 @@ nav{
     font-weight: 500;
 }
 
-.skill-shaded{
+.btn-skill-badgeShaded{
     height: 30px;
     border-radius: 16px;
     padding: 2px 15px 0;
@@ -216,6 +232,10 @@ nav{
     align-items: center;
     margin: 0 auto;
 }
+.pricing-section .pro-card{
+    background-color: #ffffff;
+    color: #2B313D;
+}
 .pricing-section .card-header h1{
     font-size: 3rem;
 }
@@ -238,9 +258,15 @@ nav{
     border: 2px solid #ffffff;
     border-radius: 5rem;
     color: #ffffff;
-    width: 100%;
+    width: 10rem;
 }
-
+.btn-buynowPro{
+    border: 2px solid #D62E6A;
+    background-color: #D62E6A;
+    border-radius: 5rem;
+    color: #ffffff;
+    width: 10rem;
+}
 .tuaneka-logo img{
     width: 7rem
 }
