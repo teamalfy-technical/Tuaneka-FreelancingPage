@@ -498,8 +498,13 @@ footer ul li{
     }
     .owl-carousel .owl-dots,
     .owl-carousel .owl-nav {
-        top:21rem;
+        top:18rem;
         left: 5rem;
+    }
+    .get-matched .owl-carousel .owl-dots,
+    .owl-carousel .owl-nav {
+        top:21rem;
+        left: 20rem;
     }
     .hero h1 {
         font-size: 48px;
