@@ -272,6 +272,12 @@ nav{
     color: #ffffff;
     width: 10rem;
 }
+.btn-buynow:hover{
+    border: 2px solid #D62E6A;
+    background-color: #D62E6A;
+    color: #ffffff;
+    width: 10rem;
+}
 .btn-buynowPro{
     border: 2px solid #D62E6A;
     background-color: #D62E6A;
