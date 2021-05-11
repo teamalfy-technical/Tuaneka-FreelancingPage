@@ -343,8 +343,8 @@ nav{
 .owl-carousel .owl-dots,
 .owl-carousel .owl-nav {
     position: absolute;
-    top: 39rem;
-    left: 8rem;
+    top: 10rem;
+    left: 7rem;
 }
 
 .owl-carousel .owl-dots .owl-dot,
