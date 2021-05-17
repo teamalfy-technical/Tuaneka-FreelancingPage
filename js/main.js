@@ -9,6 +9,7 @@ $(".owl-carousel").on("initialized.owl.carousel", () => {
     items: 1,
     loop: true,
     responsiveClass:true,
+    animateOut: 'fadeOut',
     margin:10,
     autoplay:true,
     autoplayTimeout:6000,
