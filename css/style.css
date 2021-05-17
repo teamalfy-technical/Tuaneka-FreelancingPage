@@ -151,6 +151,39 @@ nav{
     padding-top: 1rem;
 }
 
+.howItWorks{
+    background-color: #2B313D;
+    color: #ffffff;
+  
+}
+.howItWorks hr:not([size]) {
+    height: 3px;
+}
+.howItWorks hr{
+    background-color: #D62E6A;
+    border: solid #D62E6A;
+}
+.howItWorks .btn-newPages{
+    background-color: #2B313D;
+    color: #ffffff;
+    border-radius: 5rem;
+    width: auto; 
+    border: 1px solid #ffffff;
+}
+
+.overlay{
+    background-color: #2b313ddb;
+}
+
+
+.round-button .btn-leanmore{
+    background-color: #ffffff;
+    color: #D62E6A;
+    border-radius: 5rem;
+    width: auto; 
+    padding: .5rem 3rem;
+}
+
 .exclusive{
     background-color: #2B313D;
     padding: 1rem;
@@ -297,7 +330,9 @@ nav{
     width: 7rem
 }
 
-
+.tiny-logo img{
+    width: 5rem;
+}
 
   
 .static {
@@ -465,7 +500,18 @@ footer ul li{
     .tuaneka-logo img{
         width: 459.67px
     }
-
+    .howItWorks{
+        background: url(../images/person-1.jpg);
+        background-size: 60% 100%;
+        color: #ffffff;
+        background-repeat: no-repeat;
+    }
+    .round-button{
+        border: 2px solid #ffffff;
+        border-radius: 5rem;
+        padding: .5rem 3rem;
+        background-color: #2B313D;
+    }
 }
 
 /*  Large devices (desktops, 992px and up) */
