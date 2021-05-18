@@ -180,8 +180,9 @@ nav{
     background-color: #ffffff;
     color: #D62E6A;
     border-radius: 5rem;
-    width: auto; 
-    padding: .5rem 3rem;
+    width: 11rem;
+    padding: .5rem 1rem;
+    font-weight: 700;
 }
 
 .exclusive{
@@ -501,10 +502,10 @@ footer ul li{
         width: 459.67px
     }
     .howItWorks{
-        background: url(../images/person-1.jpg);
+        /* background: url(../images/person-1.jpg);
         background-size: 60% 100%;
         color: #ffffff;
-        background-repeat: no-repeat;
+        background-repeat: no-repeat; */
     }
     .round-button{
         border: 2px solid #ffffff;
